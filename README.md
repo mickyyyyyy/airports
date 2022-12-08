@@ -6,27 +6,10 @@ An airline wants to know the minimum number of routes needed to be added in orde
 ## Example Inputs ##
 The airline gives us three inputs, a list of airports, a list of routes between these airports, and the nominated starting airport. An example of such inputs is given as below:
 
-`airports = ["BGI", "CDG", "DEL", "DOH", "DSM", "EWR", "EYW", "HND", "ICN",
-            "JFK", "LGA", "LHR", "ORD", "SAN", "SFO", "SIN", "TLV", "BUD"]`  
-`routes = [["DSM", "ORD"],
-          ["ORD", "BGI"],
-          ["BGI", "LGA"],
-          ["SIN", "CDG"],
-          ["CDG", "SIN"],
-          ["CDG", "BUD"],
-          ["DEL", "DOH"],
-          ["DEL", "CDG"],
-          ["TLV", "DEL"],
-          ["EWR", "HND"],
-          ["HND", "ICN"],
-          ["HND", "JFK"],
-          ["ICN", "JFK"],
-          ["JFK", "LGA"],
-          ["EYW", "LHR"],
-          ["LHR", "SFO"],
-          ["SFO", "SAN"],
-          ["SFO", "DSM"],
-          ["SAN", "EYW"]]`  
+`airports = ["BGI", "CDG", "DEL", "DOH", "DSM", "EWR", "EYW", "HND", "ICN", "JFK", "LGA", "LHR", "ORD", "SAN", "SFO", "SIN", "TLV", "BUD"]`  
+  
+`routes = [["DSM", "ORD"], ["ORD", "BGI"], ["BGI", "LGA"], ["SIN", "CDG"], ["CDG", "SIN"], ["CDG", "BUD"], ["DEL", "DOH"], ["DEL", "CDG"], ["TLV", "DEL"], ["EWR", "HND"], ["HND", "ICN"], ["HND", "JFK"], ["ICN", "JFK"], ["JFK", "LGA"], ["EYW", "LHR"], ["LHR", "SFO"], ["SFO", "SAN"], ["SFO", "DSM"], ["SAN", "EYW"]]`  
+  
 `startingAirport = 'LGA'`  
 
 ## Instructions for Code Usage ##
