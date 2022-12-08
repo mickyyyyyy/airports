@@ -20,28 +20,28 @@ STOPS_IN_ROUTE = 2 # Number of airports in a route
 
 # Example inputs:
 
-# airports = ["BGI", "CDG", "DEL", "DOH", "DSM", "EWR", "EYW", "HND", "ICN",
-#             "JFK", "LGA", "LHR", "ORD", "SAN", "SFO", "SIN", "TLV", "BUD"]
-# routes = [["DSM", "ORD"],
-#           ["ORD", "BGI"],
-#           ["BGI", "LGA"],
-#           ["SIN", "CDG"],
-#           ["CDG", "SIN"],
-#           ["CDG", "BUD"],
-#           ["DEL", "DOH"],
-#           ["DEL", "CDG"],
-#           ["TLV", "DEL"],
-#           ["EWR", "HND"],
-#           ["HND", "ICN"],
-#           ["HND", "JFK"],
-#           ["ICN", "JFK"],
-#           ["JFK", "LGA"],
-#           ["EYW", "LHR"],
-#           ["LHR", "SFO"],
-#           ["SFO", "SAN"],
-#           ["SFO", "DSM"],
-#           ["SAN", "EYW"]]
-# startingAirport = 'LGA'
+## airports = ["BGI", "CDG", "DEL", "DOH", "DSM", "EWR", "EYW", "HND", "ICN",
+##             "JFK", "LGA", "LHR", "ORD", "SAN", "SFO", "SIN", "TLV", "BUD"]
+## routes = [["DSM", "ORD"],
+##           ["ORD", "BGI"],
+##           ["BGI", "LGA"],
+##           ["SIN", "CDG"],
+##           ["CDG", "SIN"],
+##           ["CDG", "BUD"],
+##           ["DEL", "DOH"],
+##           ["DEL", "CDG"],
+##           ["TLV", "DEL"],
+##           ["EWR", "HND"],
+##           ["HND", "ICN"],
+##           ["HND", "JFK"],
+##           ["ICN", "JFK"],
+##           ["JFK", "LGA"],
+##           ["EYW", "LHR"],
+##           ["LHR", "SFO"],
+##           ["SFO", "SAN"],
+##           ["SFO", "DSM"],
+##           ["SAN", "EYW"]]
+## startingAirport = 'LGA'
 
 
 class Airport :
@@ -137,6 +137,11 @@ class Route :
         """Returns the airports involved in the route.
         """
         return self.airports
+
+    def get_distance(self) :
+        """Returns the distance of the route.
+        """
+        return self.distance
 
     def get_time(self, plane) :
         """Returns the time it will take from take off to landing.
