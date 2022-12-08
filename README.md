@@ -7,8 +7,8 @@ An airline wants to know the minimum number of routes needed to be added in orde
 The airline gives us three inputs, a list of airports, a list of routes between these airports, and the nominated starting airport. An example of such inputs is given as below:
 
 `airports = ["BGI", "CDG", "DEL", "DOH", "DSM", "EWR", "EYW", "HND", "ICN",
-            "JFK", "LGA", "LHR", "ORD", "SAN", "SFO", "SIN", "TLV", "BUD"]  
-routes = [["DSM", "ORD"],
+            "JFK", "LGA", "LHR", "ORD", "SAN", "SFO", "SIN", "TLV", "BUD"]`  
+`routes = [["DSM", "ORD"],
           ["ORD", "BGI"],
           ["BGI", "LGA"],
           ["SIN", "CDG"],
@@ -26,8 +26,8 @@ routes = [["DSM", "ORD"],
           ["LHR", "SFO"],
           ["SFO", "SAN"],
           ["SFO", "DSM"],
-          ["SAN", "EYW"]]  
-startingAirport = 'LGA'`
+          ["SAN", "EYW"]]`  
+`startingAirport = 'LGA'`  
 
 ## Instructions for Code Usage ##
 
