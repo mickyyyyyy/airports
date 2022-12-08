@@ -6,8 +6,8 @@ An airline wants to know the minimum number of routes needed to be added in orde
 ## Example Inputs ##
 The airline gives us three inputs, a list of airports, a list of routes between these airports, and the nominated starting airport. An example of such inputs is given as below:
 
-airports = ["BGI", "CDG", "DEL", "DOH", "DSM", "EWR", "EYW", "HND", "ICN",
-            "JFK", "LGA", "LHR", "ORD", "SAN", "SFO", "SIN", "TLV", "BUD"]
+`airports = ["BGI", "CDG", "DEL", "DOH", "DSM", "EWR", "EYW", "HND", "ICN",
+            "JFK", "LGA", "LHR", "ORD", "SAN", "SFO", "SIN", "TLV", "BUD"]  
 routes = [["DSM", "ORD"],
           ["ORD", "BGI"],
           ["BGI", "LGA"],
@@ -26,8 +26,8 @@ routes = [["DSM", "ORD"],
           ["LHR", "SFO"],
           ["SFO", "SAN"],
           ["SFO", "DSM"],
-          ["SAN", "EYW"]]
-startingAirport = 'LGA'
+          ["SAN", "EYW"]]  
+startingAirport = 'LGA'`
 
 ## Instructions for Code Usage ##
 
@@ -84,6 +84,6 @@ In order to find the necessary routes needed to be added to the given list of ro
 
 Where `g` is the defined graph and `LGA` is an airport object defined from the list of airports. From the example inputs given above, we get three routes, which equate to:
 
-`['LGA', 'EWR']`
-`['LGA', 'SFO']`
-`['LGA', 'TLV']`
+`['LGA', 'EWR']`  
+`['LGA', 'SFO']`  
+`['LGA', 'TLV']`  
